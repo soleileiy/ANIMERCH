@@ -1,0 +1,165 @@
+* {
+    margin: 0 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    background: #cadeed;
+}
+body::-webkit-scrollbar  {
+    font-family: 'Playfair', serif;
+    margin: 0 0;
+    display: none;
+}
+.logo  img{
+    margin-top: 30px;
+    width:125px;
+    
+}
+#bag {
+    border: 1px ;
+}
+#bag:hover {
+    color: white;
+    transition: 1s;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+   background: #b7c5d5;
+    position: fixed;
+    width: 100%;
+    height: 5%;
+    margin-top: -80px;
+    filter: drop-shadow(0 3px 5px rgb(61, 58, 58));
+}
+nav  {
+    flex: 1;
+    text-align: right; 
+}
+nav ul li a:hover {
+    transition: 1s;
+    color: white;
+}
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+p {
+    color: black;
+}
+.smallcontainer {
+   width: 70%;
+    margin: 80px auto;
+    box-shadow: 0 3px 5px rgb(61, 58, 58);
+    background-color: #ffffffa6;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.cartinfo {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cartinfo a i:hover {
+    color: white;
+    background-color: red;
+}
+.cartinfo i{
+    font-size: 20px;
+    border-radius: 5px;
+}
+#pp {
+    font-size: 20px;  
+}
+small {
+    font-size: 15px;
+}
+span {
+    font-weight: bolder;
+    margin-left: px;
+}
+#span1 {
+    margin-left: 5px;
+}
+#remove {
+    border: 1px ;
+    font-size: 15;
+    border-radius: 5px;
+    background-color: #50a0ebd0;
+}
+th {
+    text-align: left;
+    padding: 5px;
+    color: black;
+    background: #d6e0ec;
+    font-weight: normal;
+}
+td {
+    padding: 10px 5px;
+}
+td input {
+    width:40px;
+    height: 30px;
+    padding: 5px;
+}
+td img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.totalprice {
+    display: flex;
+    justify-content: flex-end;
+}
+.totalprice table {
+    border-top: 3px solid green;
+    width: 100%;
+    max-width: 435px;
+    margin-top: 50px;
+
+}
+td:last-child {
+    text-align: right;
+}
+th:last-child {
+    text-align: right;
+}
+#bttok {
+    margin-right: 20px;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #b7c5d5;
+    border-color: black;
+}
+ #bttok:hover {
+    background-color: lightsalmon;
+    border-color: orangered;
+ }
+.payment {
+    float: left;
+    margin-left: -500px;
+    font-size: 15px;
+   
+}
+
+#cod {
+    margin-bottom: 5px;
+   
+}
+#codd {
+    margin-top: -5px;
+}
